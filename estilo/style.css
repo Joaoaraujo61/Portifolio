@@ -105,6 +105,36 @@ img#profile_img{
     font-size: 1.5rem;
 }
 
+.apresentacao__conteudo_portifolio{
+    display: flex;
+    gap: 20px;
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 4px inset var(--cor-terciaria);
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.projetos > img{
+    width: 90%;
+    border-radius: 20px;
+}
+.projetos > a{
+    width: 80%;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--cor-terciaria);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
 @media (max-width: 1030px){
     .cabecalho{
         padding: 10%;
