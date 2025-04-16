@@ -106,7 +106,20 @@ img#profile_img{
 }
 
 @media (max-width: 1030px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }   
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    img#profile_img{
+        width: 70%;
     }
 }
