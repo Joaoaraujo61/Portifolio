@@ -102,7 +102,7 @@ body{
 }
 
 img#profile_img{
-    width: 50%;
+    width: 40%;
     max-width: 100%;
     border-radius: 5%;
     border: 4px inset var(--cor-terciaria);
@@ -140,6 +140,7 @@ img#profile_img{
     color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     font-weight: bold;
+    font-size: 1.2rem;
     text-decoration: none;
     background-color: var(--cor-terciaria);
     border-radius: 20px;
@@ -188,5 +189,6 @@ img#profile_img{
 
     .projetos > a {
         width: 100%;
+        font-size: 1.5rem;
     }
 }
