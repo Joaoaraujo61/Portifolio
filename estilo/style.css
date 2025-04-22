@@ -188,6 +188,10 @@ img#profile_img{
     .apresentacao__conteudo_portifolio{
         flex-wrap: wrap;
     }
+    .apresentacao__conteudo__titulo{
+        flex-wrap: wrap;
+        font-size: 1.9rem;
+    }
     img#profile_img{
         width: 70%;
     }
