@@ -127,6 +127,7 @@ img#profile_img{
     max-width: 100%;
     border-radius: 5%;
     border: 4px inset var(--cor-terciaria);
+    
 }
 .rodape{
     background-color: var(--cor-terciaria);
